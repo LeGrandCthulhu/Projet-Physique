@@ -1,6 +1,10 @@
-import numpy as np
+from math import *
+G = 6.67430e-11
 
 class Astre:
-    def __init__(self, rayon: float, masse: float) -> None:
+    def __init__(self, rayon: float, masse: float, x: int, y: int) -> None:
         self.r = rayon
         self.m = masse
+        self.x = x
+        self.y = y
+    
